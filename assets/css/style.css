@@ -1,0 +1,684 @@
+body {
+    margin: auto;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    width: 100%;
+    max-width: 900px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__link {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+.header__link:hover {
+    opacity: .8;
+}
+
+.header__link:focus {
+    outline: none;
+    background-color: #A6A6A6;
+    border-radius: 5px;
+}
+
+.icone {
+    width: 32px;
+    box-sizing: border-box;
+}
+
+.main {
+    margin: auto;
+    width: 100%;
+    max-width: 700px;
+    padding: 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.nome {
+    box-sizing: border-box;
+    margin-top: 120px;
+    font-family: 'League Spartan';
+    color: white;
+    font-size: 4vw;
+    height: 5%;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.funçao {
+    box-sizing: border-box;
+    margin: auto; 
+    text-align: center;
+    font-family: 'League Spartan';
+    color: #DC0073;
+    font-size: 2vw;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+h3 {
+    color: white;
+}
+
+.botao__funçao {
+    box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+    max-width: 800px;
+    font-family: 'League Spartan';
+    font-size: 24px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.botao_sobremim {
+    box-sizing: border-box;
+    height: 48px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: #DC0073;
+    border: none;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.botao_sobremim:hover {
+    opacity: .8;
+}
+
+.botao_formaçao {
+    box-sizing: border-box;
+    height: 48px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: #DC0073;
+    border: none;
+    cursor: pointer;
+}
+
+.botao_formaçao:hover {
+    opacity: .8;
+}
+
+.botao_projetos {
+    box-sizing: border-box;
+    height: 48px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: #DC0073;
+    border: none;
+    cursor: pointer;
+}
+
+.botao_projetos:hover {
+    opacity: .8;
+}
+
+.sobre_mim {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.formaçao {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.projetos {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.seçao_sobremim { 
+    width: 85%;
+    box-sizing: border-box;
+    margin-top: 111px;
+}
+
+.titulo_sobremim {
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    font-size: 5vw;
+    font-weight: 700;
+    color: #DC0073;
+}
+
+.texto_sobremim {
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    font-size: 1.6vw;
+    font-weight: bold;
+    color: white;
+    width: 90%;
+    text-align: justify;
+}
+
+.seçao_formaçao {
+    width: 85%;
+    box-sizing: border-box;
+    margin: 145px auto auto auto;
+}
+
+.titulo_formaçao {
+    width: 100%;
+    margin: auto auto 30px auto;
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    font-size: 5vw;
+    font-weight: 700;
+    color: #DC0073;
+}
+
+.seçao_blocos12 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.primeiro_bloco {
+    padding: 8px;
+    width: 70%;
+    background-color: #DC0073;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.primeiro_bloco:hover {
+    opacity: .6;
+}
+
+.primeiro_curso {
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    font-size: calc(16px + 0.5vw);
+    font-weight: bold;
+    color: white;
+    margin: 0;   
+}
+
+.primeira_instituiçao {
+    box-sizing: border-box;
+    margin-top: 8px;
+    font-family: 'League Spartan';
+    font-size: calc(12px + 0.5vw);
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+.primeira_data {
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    font-size: calc(40px + 0.8vw);
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+
+.segundo_bloco {
+    padding: 4px;
+    width: 20%;
+    border-radius: 3px;
+    background-color: white;
+    align-items: center;
+}
+
+.segundo_bloco:hover {
+    opacity: .6;
+}    
+
+.segundo_curso {
+    padding-top: 5px;
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    font-size: calc(8px + 0.5vw);
+    font-weight: bold;
+    color:#DC0073; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+.segunda_instituiçao {
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    font-size: calc(7px + 0.5vw);
+    font-weight: bold;
+    color: #DC0073;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+}
+
+.segunda_data {
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    font-size: calc(25px + 0.8vw);
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.seçao_bloco34 {
+    margin-top: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.terceiro_bloco {
+    padding: 4px;
+    width: 20%;
+    border-radius: 3px;
+    background-color: white;
+    align-items: center;
+}
+
+.terceiro_bloco:hover {
+    opacity: .6;
+}
+
+.terceiro_curso {
+    padding-top: 5px;
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    font-size: calc(8px + 0.5vw);
+    font-weight: bold;
+    color:#DC0073; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+.terceira_instituiçao {
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    font-size: calc(8px + 0.5vw);
+    font-weight: bold;
+    color: #DC0073;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+}
+
+.terceira_data {
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    font-size: calc(25px + 0.8vw);
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.quarto_bloco {
+    padding: 8px;
+    width: 70%;
+    background-color: #DC0073;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.quarto_bloco:hover {
+    opacity: .6;
+}
+
+.quarto_curso {
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    font-size: calc(16px + 0.5vw);
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+.quarta_instituiçao {
+    box-sizing: border-box;
+    margin-top: 8px;
+    font-family: 'League Spartan';
+    font-size: calc(12px + 0.5vw);
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+.quarta_data {
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    font-size: calc(40px + 0.8vw);
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+
+.seçao_bloco56 {
+    margin-top: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quinto_bloco {
+    padding: 4px;
+    width: 20%;
+    border-radius: 3px;
+    background-color: #DC0073;
+    align-items: center;
+}
+
+.quinto_bloco:hover {
+    opacity: .6;
+}
+
+.quinto_curso {
+    padding-top: 5px;
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    font-size: calc(10px + 0.5vw);
+    font-weight: bold;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+.quinta_instituiçao {
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    font-size: calc(10px + 0.5vw);
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+}
+
+.quinta_data {
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    font-size: calc(25px + 0.8vw);
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.sexto_bloco {
+    padding: 8px;
+    width: 70%;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.sexto_bloco:hover {
+    opacity: .6;
+}
+
+.sexto_curso {
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    font-size: calc(16px + 0.5vw);
+    font-weight: bold;
+    color: #DC0073;
+    margin: 0;
+}
+
+.sexta_instituiçao {
+    box-sizing: border-box;
+    margin-top: 8px;
+    font-family: 'League Spartan';
+    font-size: calc(12px + 0.5vw);
+    font-weight: bold;
+    color: #DC0073;
+    margin: 0;
+}
+
+.sexta_data {
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    font-size: calc(40px + 0.8vw);
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+
+.projetos {
+    margin-top: 145px;
+    width: 85%;
+}
+
+.titulo_projetos {
+    width: 100%;
+    margin: auto auto 30px auto;
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    font-size: 2.5vw;
+    font-weight: 700;
+    color: #DC0073;
+}
+
+.grupo_quadradosum {
+    display: flex;
+    
+}
+
+.quadrado_1 {
+    border: 2px solid #DC0073;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 1vw;
+}
+
+.link_projetoum {
+    text-decoration: none;
+    color: white;
+    font-family: 'League Spartan';
+    font-weight: 600;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+.titulodois_projeto {
+    text-decoration: none;
+    color: white;
+    font-family: 'League Spartan';
+    font-weight: 600;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.quadrado_2 {
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 1vw;
+}
+
+.link_projetodois {
+    text-decoration: none;
+    color: white;
+    font-family: 'League Spartan';
+    font-weight: 600;
+    font-size: 2vw;
+    margin: 0;
+}
+
+.titulotres_projeto {
+    text-decoration: none;
+    color: white;
+    font-family: 'League Spartan';
+    font-weight: 600;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.grupo_quadradosdois {
+    display: flex;
+}
+
+.quadrado_3 {
+    border: 2px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 2vw;
+}
+
+.link_projetotres {
+    text-decoration: none;
+    color:white;
+    font-family: 'League Spartan';
+    font-weight: 600;
+    font-size: 2vw;
+    display: flex;
+    
+    margin: 0;
+}
+
+.tituloquatro_projeto {
+    text-decoration: none;
+    color: white;
+    font-family: 'League Spartan';
+    font-weight: 600;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+}
+
+.quadrado_4 {
+    border: 2px solid #DC0073;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 2.2vw;
+    
+} 
+
+.link_projetoquatro {
+    text-decoration: none;
+    color:white;
+    font-family: 'League Spartan';
+    font-weight: 600;
+    font-size: 2vw; 
+}
+
+.titulocinco_projeto {
+    text-decoration: none;
+    color: white;
+    font-family: 'League Spartan';
+    font-weight: 600;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.rodape {
+    background-color: #DC0073;
+    width: 100%;
+    padding: 4px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.texto_rodape {
+    font-family: 'League Spartan';
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+
+@media (max-width: 400px) {
+
+    .nome {
+        height: 45px;
+        font-size: 20px;
+    
+    }
+
+    .funçao {
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .titulo_sobremim {
+        margin-top: 140px;
+    }
+
+    .botao__funçao {
+    
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .botao_sobremim {
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+
+    .botao_formaçao {
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+
+    .botao_projetos {
+        box-sizing: border-box;
+        
+    }
+
+  }
+
